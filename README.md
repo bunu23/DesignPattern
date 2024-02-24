@@ -8,7 +8,7 @@
     2. Declare a private static instance of the class.
     3. Add a static method to get an instance of the singleton class.
 
-    some example of singleton class: Connection Pool, PrinterBuffer and Cache.
+    some example of singleton: Connection Pool, PrinterBuffer and Cache.
 
 With singleton we often share the resources but making or instantiating shared resources , reading something from a property file, creating database connection takes a lot of time. so we two options with singleton 1. Eager Instantiation 2. Lazy Instantiation.
 
