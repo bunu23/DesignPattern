@@ -10,6 +10,8 @@
 
     some example of singleton: Connection Pool, PrinterBuffer and Cache.
 
+![](images/singleton.png)
+
 With singleton we often share the resources but making or instantiating shared resources , reading something from a property file, creating database connection takes a lot of time. so we two options with singleton 1. Eager Instantiation 2. Lazy Instantiation.
 
 Eager:
@@ -53,7 +55,5 @@ public Connection getConnection() {
 
 }
 ```
-
-![](images/singleton.png)
 
 # Builder Pattern
