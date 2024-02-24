@@ -6,6 +6,6 @@
 
         Implementation:
 
-    a. Make the constructor private.
-    b. Declare a private static instance of the class.
-    c. Add a static method to get an instance of the singleton class.
+    1. Make the constructor private.
+    2. Declare a private static instance of the class.
+    3. Add a static method to get an instance of the singleton class.
