@@ -14,6 +14,8 @@ With singleton we often share the resources but making or instantiating shared r
 
 Eager:
 We create connection pool in the beginning before even calling static method .
+
+```java
 public class ConnectionPool {
 ​//declare a private static instance of a class
 private static ConnectionPool pool=new ConnectionPool();
@@ -28,10 +30,12 @@ public Connection getConnection() {
 ​return connection;
 }
 }
+```
 
 Lazy:
 Whenever we call method than we create a connection pool. Most often this we use.
 
+```java
 public class ConnectionPool {
 private static ConnectionPool pool;
 //this is a pool with only one connection
@@ -48,6 +52,7 @@ public Connection getConnection() {
 }
 
 }
+```
 
 ![](images/singleton.png)
 
