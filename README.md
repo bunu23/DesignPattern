@@ -63,3 +63,7 @@ Builds a complex object using step by step approach. This pattern is helpful whi
 
 If we want Expressive code and Immutable class
 solution: Bulilder pattern
+
+# Facade Pattern
+
+The facade pattern provides a unified interface to a complex set of classes. It hides the complexity from the clients.
