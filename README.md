@@ -9,6 +9,7 @@
     3. Add a static method to get an instance of the singleton class.
 
     some example of singleton: Connection Pool, PrinterBuffer and Cache.
+    
 
 ![](images/singleton.png)
 
