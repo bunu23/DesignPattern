@@ -98,7 +98,7 @@ public Connection getConnection() {
 
 ---
 
-# Builder Pattern
+# [Builder Pattern](src/builder)
 
 - Builds a complex object using step by step approach. This pattern is helpful while creating objects with many different parameters.
 - If we want Expressive code and Immutable class
