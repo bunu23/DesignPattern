@@ -1,17 +1,37 @@
 # Table of Contents
 
-1. [Singleton Pattern](#singleton-pattern)
+1. [Design Principles](#design-principles)
+2. [Singleton Pattern](#singleton-pattern)
 
    - [Eager Instantiation](#eager)
    - [Lazy Instantiation](#lazy)
 
-2. [Builder Pattern](#builder-pattern)
+3. [Builder Pattern](#builder-pattern)
 
-3. [Facade Pattern](#facade-pattern)
+4. [Facade Pattern](#facade-pattern)
 
-4. [Factory Pattern](#factory-pattern)
+5. [Factory Pattern](#factory-pattern)
 
-5. [Strategy Pattern](#strategy-pattern)
+6. [Strategy Pattern](#strategy-pattern)
+
+---
+
+# Design Principles
+
+- Keep it simple
+- Keep it flexible
+- Loose coupling
+- Separation of concern
+- Information hiding
+- Principle of modularity
+- DRY: Don’t repeat yourself
+- Encapsulate what varies
+- Solid
+- Single Responsibility Principle (SRP)
+- Open-Closed Principle (OCP)
+- Liskov Substitution Principle (LSP)
+- Interface Segregation Principle (ISP)
+- Dependency Inversion Principle (DIP)
 
 ---
 
@@ -76,15 +96,21 @@ public Connection getConnection() {
 }
 ```
 
+---
+
 # Builder Pattern
 
 - Builds a complex object using step by step approach. This pattern is helpful while creating objects with many different parameters.
 - If we want Expressive code and Immutable class
   - solution: Bulilder pattern
 
+---
+
 # Facade Pattern
 
 The facade pattern provides a unified interface to a complex set of classes. It hides the complexity from the clients.
+
+---
 
 # Factory Pattern
 
@@ -101,6 +127,8 @@ A factory creates objects
   - Static or not static
 - Factory method pattern
 - Abstract factory pattern
+
+---
 
 # Strategy Pattern
 
