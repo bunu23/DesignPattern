@@ -92,8 +92,8 @@ A factory creates objects
 
 - Encapsulation of the logic to create objects
 
-![](images/with-factory.png)
-![](images/without-factory.png)
+<img src="images/with-factory.png" width="600" height="400" />
+<img src="images/without-factory.png" width="600" height="400" />
 
 #### Different types of factories:
 
