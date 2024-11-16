@@ -35,7 +35,7 @@
 
 ---
 
-# Singleton pattern
+# [Singleton pattern](src/singleton)
 
 Singleton is a very simple pattern, just have one object instance.
 
@@ -106,13 +106,13 @@ public Connection getConnection() {
 
 ---
 
-# Facade Pattern
+# [Facade Pattern](src/facade)
 
 The facade pattern provides a unified interface to a complex set of classes. It hides the complexity from the clients.
 
 ---
 
-# Factory Pattern
+# [Factory Pattern](src/factory-pattern)
 
 A factory creates objects
 
@@ -130,7 +130,7 @@ A factory creates objects
 
 ---
 
-# Strategy Pattern
+# [Strategy Pattern](src/strategypattern/)
 
 The strategy pattern extracts algorithms (strategies) from a certain class (context class) and makes a different class for every single algorithm. This gives the following advantages
 
@@ -138,3 +138,5 @@ The strategy pattern extracts algorithms (strategies) from a certain class (cont
 - The strategies are better reusable
 
 <img src="images/strategy-demo.png" width="600" height="400" />
+
+---
