@@ -9,7 +9,6 @@
     3. Add a static method to get an instance of the singleton class.
 
     some example of singleton: Connection Pool, PrinterBuffer and Cache.
-    
 
 ![](images/singleton.png)
 
@@ -60,11 +59,24 @@ public Connection getConnection() {
 
 # Builder Pattern
 
-Builds a complex object using step by step approach. This pattern is helpful while creating objects with many different parameters.
-
-If we want Expressive code and Immutable class
-solution: Bulilder pattern
+- Builds a complex object using step by step approach. This pattern is helpful while creating objects with many different parameters.
+- If we want Expressive code and Immutable class
+  - solution: Bulilder pattern
 
 # Facade Pattern
 
 The facade pattern provides a unified interface to a complex set of classes. It hides the complexity from the clients.
+
+# Factory Pattern
+
+A factory creates objects
+
+- Encapsulation of the logic to create objects
+
+# Strategy Pattern
+
+The strategy pattern extracts algorithms (strategies) from a certain class (context class) and makes a different class for every single algorithm. This gives the following advantages
+
+- We can easily add new algorithms without
+  changing the context class
+- The strategies are better reusable
