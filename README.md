@@ -27,11 +27,11 @@
 - DRY: Don’t repeat yourself
 - Encapsulate what varies
 - Solid
-- Single Responsibility Principle (SRP)
-- Open-Closed Principle (OCP)
-- Liskov Substitution Principle (LSP)
-- Interface Segregation Principle (ISP)
-- Dependency Inversion Principle (DIP)
+  - Single Responsibility Principle (SRP)
+  - Open-Closed Principle (OCP)
+  - Liskov Substitution Principle (LSP)
+  - Interface Segregation Principle (ISP)
+  - Dependency Inversion Principle (DIP)
 
 ---
 
