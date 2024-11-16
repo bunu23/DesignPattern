@@ -1,8 +1,25 @@
+# Table of Contents
+
+1. [Singleton Pattern](#singleton-pattern)
+
+   - [Eager Instantiation](#eager)
+   - [Lazy Instantiation](#lazy)
+
+2. [Builder Pattern](#builder-pattern)
+
+3. [Facade Pattern](#facade-pattern)
+
+4. [Factory Pattern](#factory-pattern)
+
+5. [Strategy Pattern](#strategy-pattern)
+
+---
+
 # Singleton pattern
 
-        => Singleton is a very simple pattern, just have one object instance.
+Singleton is a very simple pattern, just have one object instance.
 
-        Implementation:
+**Implementation:**
 
     1. Make the constructor private.
     2. Declare a private static instance of the class.
@@ -14,7 +31,8 @@
 
 With singleton we often share the resources but making or instantiating shared resources , reading something from a property file, creating database connection takes a lot of time. so we two options with singleton 1. Eager Instantiation 2. Lazy Instantiation.
 
-Eager:
+### Eager
+
 We create connection pool in the beginning before even calling static method .
 
 ```java
@@ -35,7 +53,8 @@ public Connection getConnection() {
 }
 ```
 
-Lazy:
+### Lazy:
+
 Whenever we call method than we create a connection pool. Most often this we use.
 
 ```java
@@ -77,6 +96,5 @@ A factory creates objects
 
 The strategy pattern extracts algorithms (strategies) from a certain class (context class) and makes a different class for every single algorithm. This gives the following advantages
 
-- We can easily add new algorithms without
-  changing the context class
+- We can easily add new algorithms without changing the context class
 - The strategies are better reusable
