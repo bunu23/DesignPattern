@@ -109,4 +109,4 @@ The strategy pattern extracts algorithms (strategies) from a certain class (cont
 - We can easily add new algorithms without changing the context class
 - The strategies are better reusable
 
-![](images/strategy-demo.png)
+<img src="images/strategy-demo.png" width="600" height="400" />
