@@ -92,9 +92,21 @@ A factory creates objects
 
 - Encapsulation of the logic to create objects
 
+![](images/with-factory.png)
+![](images/without-factory.png)
+
+#### Different types of factories:
+
+- Simple factory method
+  - Static or not static
+- Factory method pattern
+- Abstract factory pattern
+
 # Strategy Pattern
 
 The strategy pattern extracts algorithms (strategies) from a certain class (context class) and makes a different class for every single algorithm. This gives the following advantages
 
 - We can easily add new algorithms without changing the context class
 - The strategies are better reusable
+
+![](images/strategy-demo.png)
