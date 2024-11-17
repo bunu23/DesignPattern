@@ -14,6 +14,8 @@
 
 6. [Strategy Pattern](#strategy-pattern)
 
+7. [Template Method Pattern](#template-method-pattern)
+
 ---
 
 # Design Principles
@@ -138,5 +140,14 @@ The strategy pattern extracts algorithms (strategies) from a certain class (cont
 - The strategies are better reusable
 
 <img src="images/strategy-demo.png" width="600" height="400" />
+
+---
+
+# [Template Method Pattern](src/template-method)
+
+The template method pattern defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+
+- What problem does it solve?
+  Whenever we have an algorithm with different steps that is used in different situations, then we can define this algorithm in one place (parent class) and let child classes implement the concrete steps. The template method can be used when you have a stable algorithm whose individual steps may vary.
 
 ---
