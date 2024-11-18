@@ -16,6 +16,8 @@
 
 7. [Template Method Pattern](#template-method-pattern)
 
+8. [Iterator Pattern](#iterator-pattern)
+
 ---
 
 # Design Principles
@@ -150,5 +152,14 @@ The template method pattern defines the skeleton of an algorithm in the supercla
 - What problem does it solve?
 
   Whenever we have an algorithm with different steps that is used in different situations, then we can define this algorithm in one place (parent class) and let child classes implement the concrete steps. The template method can be used when you have a stable algorithm whose individual steps may vary.
+
+---
+
+# [Iterator Pattern](src/iterator-pattern)
+
+Iterators are used to access the elements of an aggregate object sequentially without exposing its underlying implementation. An iterator object encapsulates the internal structure of how the iteration occurs.
+
+- External iterator: The client controls the iteration
+- Internal iterator: The iterator controls the iteration
 
 ---
