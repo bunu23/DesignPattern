@@ -18,6 +18,8 @@
 
 8. [Iterator Pattern](#iterator-pattern)
 
+9. [Decorator Pattern](#decorator-pattern)
+
 ---
 
 # Design Principles
@@ -161,5 +163,11 @@ Iterators are used to access the elements of an aggregate object sequentially wi
 
 - External iterator: The client controls the iteration
 - Internal iterator: The iterator controls the iteration
+
+---
+
+# [Decorator Pattern](src/decorator-pattern)
+
+Allows to dynamically add new behavior to an existing object. This pattern is useful when we need to enhance the behavior of a class while adhering to the Open-Closed Principle — that is, our code should be open for extension but closed for modification.
 
 ---
